@@ -1,20 +1,20 @@
  Booking Management System
 
-A desktop accommodation booking application developed in **Java** as a university project for an **Object-Oriented Programming (OOP)** course. The application lets users browse accommodation options, check dates, estimate booking costs, and register reservations through a graphical interface.
+This is a Java desktop application I made for my Object-Oriented Programming course. The idea was to build a simple booking system for different types of accommodation: apartments, villas and cabins.
+The application has two sections: one for adding properties and another for browsing available places and making reservations.
 
 Features
-
-- Accommodation management:** add and display apartments, villas, and cabins, including room counts, nightly rates, and facilities.
-- Availability filtering:** search for properties using check-in and check-out dates.
-- Booking workflow:** select a property, choose optional parking or breakfast, calculate an estimated total, and confirm a reservation.
-- Client and booking records:** store client details, reservation information, and a *simulated* payment record in PostgreSQL.
-- Swing desktop interface:** separate tabs for browsing/booking and adding properties.
-- Object-oriented design:** abstract classes, inheritance, interfaces, and polymorphism for accommodation types, with a DAO layer for database operations.
+Add and manage different types of accommodation.
+Store property details such as location, price per night, number of rooms and available facilities.
+Search for accommodation based on check-in and check-out dates.
+Make reservations and calculate the total cost of a stay.
+Include extra services such as breakfast and parking.
+Store information about clients, reservations and payments in a database.
 
 Technologies
 
-- Java 
-- Java Swing (desktop GUI)
-- PostgreSQL (relational database)
-- JDBC / PostgreSQL JDBC driver
-- Maven 
+Java – main programming language
+Java Swing – graphical user interface
+PostgreSQL – database
+JDBC – database connection
+Maven – project management and dependencies
